@@ -1,0 +1,17 @@
+.flexível{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    flex: 1 1 200 px;
+    background-color: aquamarine;
+    border-radius: 5pt;
+    margin: 5px;
+    padding: 5px;
+}
+.card:haver{
+    flex: 1 1 300px;
+    background-color: blue;
+    transition: 1s;
+    color: chartreuse;
+}
